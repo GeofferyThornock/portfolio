@@ -1,0 +1,92 @@
+
+/* setting margin and padding to 0 to cancel out browser defaults*/
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color:#525252;
+    background-color: whitesmoke;
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+handle link styling with pseudo-elements
+*/
+a{
+    color:#150578;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#7356ff;
+}
+
+a:hover{
+    color:#a5a5a5;
+}
+
+a:active{
+    color:#ffffff
+}
+
+
+/* handle image styling and alignment*/
+img{
+    text-align: center;
+    width: 500px;
+    height:400px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#image{
+    text-align: center;
+}
+
+/*using the semantic pointers for convenience*/
+header{
+
+    padding: 5px;
+    text-align: center;
+    background-color: #8B85C1;
+}
+
+/*adding relative position so it can justify to the bottom of the page*/
+footer{
+    text-align: center;
+    background-color:#8B85C1;
+    color: #525252;
+    position: relative;
+    padding-top: 30px;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+hr{
+    margin: 50px;
+}
+
+#intro{
+    margin-left: 50px;
+    margin-right:50px;
+    list-style-position: inside;
+    padding-top: 50px;
+}
+
+#about{
+    text-align: center;
+    margin:40px;
+}
+
+#contact{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.sections{
+    text-align: center;
+}
